@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Qui suis je</title>
+</head>
+<body>
+ <script type="text/javascript">
+    
+    
+    
+    </script>
+  <div class="head"><a class="thead" href="index.html">Moi, le blob</a></div> 
+   
+   <table border="1px solid #919191" align="center">
+	<tbody>
+		<tr>
+            <td class="menu"><a href="index.html">HOME</a></td>
+			<td class="menu"><a href="qui-suis-je.html">Qui suis-je?</a></td>
+            <td class="menu"><a href="jouons.html">Jouons!</a></td>
+            <td class="menu"><a href="contact.html">CONTACT</a></td>
+		</tr>
+	</tbody>
+</table>
+   <h3>Sais-tu tout sur moi?</h3>
+    <h2 class="yellow">Question 1 : J’ai le choix entre…</h2>
+    <form name="q1" class="quiz">
+        <input type="radio" id="a1" onclick="checkq1()" name="q1"><span>A. 223 sexes</span><br>
+        <input type="radio" id="b1" onclick="checkq1()" name="q1"><span>B. 2 sexes<br></span>
+        <input type="radio" id="c1" onclick="checkq1()" name="q1"><span>C. Je suis asexué<br></span>
+        <span id="validationq1"></span>
+        <script type="text/javascript">
+          function checkq1(){ 
+        if(document.getElementById('a1').checked == true) {
+            document.getElementById("validationq1").innerHTML = "True !";
+            document.getElementById("validationq1").style.color="#77f989"
+        }
+              else if (document.getElementById('b1').checked == true){
+           document.getElementById("validationq1").innerText = "False!";
+           document.getElementById("validationq1").style.color="#f74f4f"
+        }
+            else if (document.getElementById('c1').checked == true){
+           document.getElementById("validationq1").innerText = "False!";
+           document.getElementById("validationq1").style.color="#f74f4f"
+        }
+          }
+        </script>
+    </form>
+     <br><br>
+      <h2 class="yellow">Question 2 : Je suis composé…</h2>
+    <form action="#" name="q1" class="quiz">
+        <input type="radio" id="a2" onclick="checkq2()" name="q2"><span>A. Principalement d’air</span><br>
+        <input type="radio" id="b2" onclick="checkq2()" name="q2"><span>B. D’une seule cellule<br></span>
+        <input type="radio" id="c2" onclick="checkq2()" name="q2"><span>C. On se sait toujours pas<br></span>
+        <span id="validationq2"></span>
+        <script type="text/javascript">
+          function checkq2(){ 
+        if(document.getElementById('b2').checked == true) {
+            document.getElementById("validationq2").innerHTML = "True!";
+            document.getElementById("validationq2").style.color="#77f989"
+        }
+              else if (document.getElementById('a2').checked == true){
+           document.getElementById("validationq2").innerText = "False!";
+           document.getElementById("validationq2").style.color="#f74f4f"
+        }
+            else if (document.getElementById('c2').checked == true){
+           document.getElementById("validationq2").innerText = "False!";
+           document.getElementById("validationq2").style.color="#f74f4f"
+        }
+          }
+        </script>
+    </form>
+      <br><br>
+      <h2 class="yellow">Question 3 : Mon intelligence se voit grâce à…</h2>
+    <form action="#" name="q1" class="quiz">
+        <input type="radio" id="a3" onclick="checkq3()" name="q2"><span>A. Ma capacité à transmettre des connaissances</span><br>
+        <input type="radio" id="b3" onclick="checkq3()" name="q2"><span>B. Mon incroyable système nerveux<br></span>
+        <input type="radio" id="c3" onclick="checkq3()" name="q2"><span>C. Je ne suis pas intelligent <br></span>
+        <span id="validationq3"></span>
+        <script type="text/javascript">
+          function checkq3(){ 
+        if(document.getElementById('a3').checked == true) {
+            document.getElementById("validationq3").innerHTML = "True!";
+            document.getElementById("validationq3").style.color="#77f989"
+        }
+              else if (document.getElementById('b3').checked == true){
+           document.getElementById("validationq3").innerText = "False!";
+           document.getElementById("validationq3").style.color="#f74f4f"
+        }
+            else if (document.getElementById('c3').checked == true){
+           document.getElementById("validationq3").innerText = "False!";
+           document.getElementById("validationq3").style.color="#f74f4f"
+        }
+          }
+        </script>
+    </form> 
+    <br><br>
+    <h2 class="yellow">Question 4 : Et pour couronner le tout, je suis…</h2>
+    <form action="#" name="q1" class="quiz">
+        <input type="radio" id="a4" onclick="checkq4()" name="q2"><span>A. Invisible à l’œil nu</span><br>
+        <input type="radio" id="b4" onclick="checkq4()" name="q2"><span>B. Très toxique<br></span>
+        <input type="radio" id="c4" onclick="checkq4()" name="q2"><span>C. Immortel <br></span>
+        <span id="validationq4"></span>
+        <script type="text/javascript">
+          function checkq4(){ 
+        if(document.getElementById('c4').checked == true) {
+            document.getElementById("validationq4").innerHTML = "True!";
+            document.getElementById("validationq4").style.color="#77f989"
+        }
+              else if (document.getElementById('b4').checked == true){
+           document.getElementById("validationq4").innerText = "False!";
+           document.getElementById("validationq4").style.color="#f74f4f"
+        }
+            else if (document.getElementById('a4').checked == true){
+           document.getElementById("validationq4").innerText = "False!";
+           document.getElementById("validationq4").style.color="#f74f4f"
+        }
+          }
+        </script>
+    </form> 
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+
+       
+        
+
+   
+</body>
+</html>

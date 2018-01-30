@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Qui suis je</title>
+    
+    
+       <script type="text/javascript">
+        
+        function store() {
+           
+        var nom = document.getElementsByName('form')[0];
+        var suj = document.getElementsByName('form')[2];
+        var getInput = form.nom;
+        var getSujet = form.sujet;
+        localStorage.setItem("nombre", getInput.value);
+        localStorage.setItem("asunto", getSujet.value);
+       }
+        </script>
+        
+
+   
+    
+  <!--  <script language="javascript">
+        
+        function comprobar()
+{
+   var nombre = document.form.nom.value;
+   var nom = document.getElementsByName('form')[0];
+   var n0m = form.nom.value;
+   localStorage.setItem(n0m);
+  
+   if (nombre.length > 0)
+   {
+      alert(n0m);
+      return true;
+   }
+   
+
+}
+</script>-->
+    
+</head>
+<body>
+  <div class="head"><a class="thead" href="index.html">Moi, le blob</a></div> 
+   
+   <table border="1px solid #919191" align="center">
+	<tbody>
+		<tr>
+            <td class="menu"><a href="index.html">HOME</a></td>
+			<td class="menu"><a href="qui-suis-je.html">Qui suis-je?</a></td>
+            <td class="menu"><a href="jouons.html">Jouons!</a></td>
+            <td class="menu"><a href="contact.html">CONTACT</a></td>
+		</tr>
+	</tbody>
+</table>
+   <h3>CONTACT</h3>
+ <div class="squarecontent"><iframe
+  frameborder="0" style="border:0 width:490px"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCL5SH2EsWqqI36Z_PVfcY_HrsBw5P1qsk&zoom=18
+    &q=Pacific+Ocean" allowfullscreen>
+</iframe></div>
+   <div id="textbox3">Comme je suis un Blob, je ne
+suis jamais à la même
+adresse. En ce moment je
+me prends quelques
+vacances dans l'Océan, mais
+ça ne va pas durer.
+Malheureusement.
+<br>
+<br>
+<br>
+<br>
+Si vous avez une question,
+envoyez un e-mail à mon
+assistante. Elle vous
+répondra peut-être. Un jour.
+Ou pas.</div>
+   
+    <form action="contactfinal.html" method="get" name="form" id="form" onsubmit="function()">
+    <input type="text" name="nom" id="nom" placeholder="Nom" value="" style="position: relative; margin-top: 2%; margin-left: 55%;"><br>
+    <input type="text" name="email" placeholder="Email" style="position: relative; margin-left: 55%;">
+   <input type="text" name="sujet" id="sujet" placeholder="Sujet" style="position: relative; margin-left:55%;">
+   <textarea name="texto" placeholder="Message" ROWS=5 COLS=25 style="position: absolute; margin-top: -35px; margin-left: 5px;" ></textarea>
+   <input type="submit" style="position: absolute; margin-top:35px; margin-left:5px;" onclick="store()">
+    </form>
+</body>
+</html>
